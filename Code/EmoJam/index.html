@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>FaceMelody</title>
+    <link rel ="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/logo.jpg"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times-circle" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="https://spotifyvoiceassistant.netlify.app/">Voice Assistant </a></li>
+                    <li><a href="http://127.0.0.1:5000">ProtoType</a></li>
+                    
+                    <li><a href="https://github.com/tahseen-7412/Mood-aware_Music_Recommendation_System_with_Facial_Recognition">Project Source Code</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>            
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+<div class="text-box">
+            <h1>FaceMelody</h1>
+            <p>FaceMelody is a web application that combines facial emotion detection with song recommendations. It uses a webcam to capture the user's facial expressions and analyzes them to determine their emotions. Based on the detected emotions, FaceMelody suggests songs that match the user's current emotional state.</p>
+            <a href="about.html" class="hero-btn">Visit Us to know More about it...</a>
+</div>
+    
+</section>
+
+<!----about--->
+<section class="about">
+    <h1>Facial Emotion Detection</h1>
+    <p> FaceMelody uses computer vision techniques to analyze facial expressions and detect emotions such as happiness, sadness, anger, and surprise. This is done by capturing frames from the webcam and applying machine learning algorithms to classify the emotions based on facial features.</p>
+</section>
+
+<!---------- data ana ---->
+
+<section class="data">
+    <h1>Song Recommendations</h1>
+    <p>Once the user's emotions are detected, FaceMelody recommends songs that align with their emotional state. These recommendations are based on a pre-defined database of songs and their associated emotional characteristics. The application selects songs that are known to evoke similar emotions in listeners.</p>
+    
+</section>
+<section class="data">
+    <h1>Real-time Updates</h1>
+    <p>FaceMelody continuously updates the song recommendations based on the user's changing emotions. It constantly analyzes the facial expressions captured by the webcam and adjusts the recommendations accordingly. This ensures that the suggested songs are always relevant to the user's current emotional state.</p>
+
+</section>
+
+<section class="data">
+    <div class="row">
+        <div class="data-col">
+            <img src="images/graph1.jpg">
+            <h3>DataSet</h3>
+            <p>Facial Expressions</p>
+        
+        </div>
+        <div class="data-col">
+            <img src="images/ga1.jpg">
+            <h3>Spotify Developer DashBoard </h3>
+            <p>Music Playlist</p>
+        
+        </div>
+        
+        <div class="data-col">
+            <img src="images/ga2.jpg">
+            <h3>Model Working</h3>
+            <p>Schematic representation of Basic Convolutional Neural Network</p>
+        </div>
+
+    </div>
+</section>
+    
+<!---------- call to action-------->   
+<section class="cta">
+    <h1>Team Contact</h1>
+    <a href="contact.html" class="hero-btn">CONTACT US</a>
+</section>
+    
+<!----- footer ----------> 
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Students from KL University</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+        <i class="fa fa-github"></i>
+        
+</section>
+    
+    
+<!-----JavaScript for Toggle Menu----->
+<script>
+    
+    var navLinks = document.getElementById("navLinks");
+    
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+</script>  
+    
+    
+</body>
+</html>
