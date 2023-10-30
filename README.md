@@ -48,4 +48,28 @@ The system recommends music based on the user's detected emotion. Each emotion i
 ## Video Streaming: 
 The system captures video frames from the user's webcam in real-time. It processes each frame to detect facial emotions and recommends music accordingly. The video streaming is performed using OpenCV, a popular computer vision library.
 
+## Voice Assistant Commands:
+Open Spotify
+Open devotional songs
+Open telugu songs
+Open sleepy songs
+Open travelling songs
+Open hindi sad songs
+Open telugu sad songs
+Open english sad songs
+Open sad songs
+Open my playlist
+Open dj songs
+Open hanuman songs
+Open happy songs
+Open bhajana songs
+Open relaxing songs
+Open workout songs
+Open party songs
+Open punjabi songs
+Open cooking songs
+Open k-pop songs
+Open english songs
+Open hindi songs
+
 
